@@ -197,7 +197,7 @@ img{
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     align-content: center;
 }
-.section4 img{
+.section4>img{
     width:110px;
     height: 30px;
 }
