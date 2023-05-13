@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="javascript"src="/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <section class="SecOne">
+    <nav class="navbar">
+        <div class="main">chatapp</div>
+        <ul class="navlist">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Log in</a></li>  
+        </ul>
+        <div class="bx bx-menu" id="menu-btn"></div>
+    </nav> 
+
+
+    <script>
+    let menu = document.querySelector('#menu-btn');
+let navlist = document.querySelector('.navlist');
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
+
+}
+const sr = scrollreveal({
+    distance: '65px',
+    duration:2600,
+    delay: 450,
+    reset: true
+})
+
+sr.reveal('body', {delay:200, origin:'top'});
+</script>
+
+
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1> Have your <br> best chat</h1>
+            <h4>Fast, easy and unlimited team chat</h4>
+            <div class="link">
+                <a href="" class="linkOne">Try it Free</a>
+                <a href="" class="linkTwo">Get a Demo</a>
+            </div>
+        </div>
+            <img src="./hero.png">
+    </div>
+    </section>
+
+    <section class="sectwo">
+        <div class="">
+            <h1>Instant Team Chats</h1>
+            <div class="paragraph">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa</p>
+                <p>natus accusantium vitae numquam illo rem est sequi, repellendus</p>
+                <p>ea adipisci inventore deserunt aperiam voluptas assumenda</p>
+                <p>tempora dignissimos alligos merts lis sint, dolorum alias.</p>
+            </div> 
+        </div>
+        <img class ="img2" src="./mockup.jpg">
+    </section>
+
+    <section class="section3">
+        <img class="img3" src="./Group 16.png?">
+        <div class="aside">
+            <h1>Perfect Solution for Small Businesses</h1>
+            <p>Pricing plans that fit like a glove</p>
+            <div class="link2">
+                <a href="" class="linkthree">Try it Free</a>
+                <a href="" class="linkfour">Get a Demo</a>
+            </div>
+        <div class="star">
+        <img class="img4" src="./Group 11.svg">
+        <div>5,200 businesses use ChatApp and they rate it as 5-stars.</div></div>
+        </div>
+    </section>
+    
+    <section class="section4">
+        <div>
+            <img src="./chatapp.png">
+            <p class="content">the last team chat you will ever need</p>
+        </div>
+        <div>
+            <div class="content-head">Help</div>
+            <p class="content">Support</p>
+            <p class="content">Knowledgebase</p>
+            <p class="content">Tutorials</p>
+        </div>
+        <div>
+            <div class="content-head">Features</div>
+            <p class="content">Screen Sharing</p>
+            <p class="content">iOS & Andriod Apps</p>
+            <p class="content">File Sharing</p>
+            <p class="content">User Management</p>
+        </div>
+        <div>
+            <div class="content-head">Company</div>
+            <p class="content">About Us</p>
+            <p class="content">Careers</p>
+            <p class="content">Contact Us</p>
+        </div>
+        <div>
+            <div class="content-head">Contact US</div>
+            <p class="content">info@chatapp.com</p>
+            <p class="content">07030310731</p>
+            <p class="content">FUTA</p>
+        </div>
+    </section>
+</body>
+</html>
