@@ -204,9 +204,13 @@ img{
 p.content{
     padding: 7px 0;
 }
-.sub-heading{
-    font-size: 13px;
+#content{
+    padding-top: 22px;
 }
+h3{
+    padding-bottom: 23px;
+}
+
 @media only screen and (max-width:1464px) {
     .navbar{
         padding: 23px 6%;
