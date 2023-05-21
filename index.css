@@ -429,7 +429,7 @@ h3{
     } 
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:400px) {
     .section4{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -438,7 +438,7 @@ h3{
     } 
 
     .linkthree{
-        margin-right: 14px;
+        margin-right: 13px;
     }
     .img4{
         margin-left:-5px;
