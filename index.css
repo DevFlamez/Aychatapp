@@ -200,6 +200,8 @@ img{
 .img5{
     width:110px;
     height: 30px;
+    margin: 0;
+    padding: 0;
 }
 .section4 p{
     padding: 7px 0;
