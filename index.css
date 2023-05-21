@@ -437,11 +437,12 @@ h3{
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
         column-gap: 13px;
+        row-gap: 18px;
         text-align: center;
     } 
 
     .linkthree{
-        margin-right: 13px;
+        margin-right: 9px;
     }
     .hero{
     padding-bottom: 20px;
