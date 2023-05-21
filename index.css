@@ -435,4 +435,19 @@ h3{
     }
 }
 
+@media screen and (max-width:520px) {
+    .section4{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: auto 2%;
+        gap: 12px;
+    } 
+    .linkthree{
+        margin-right: 14px;
+    }
+    .img4{
+        margin-left:-5px;
+    }
+}
+
     
