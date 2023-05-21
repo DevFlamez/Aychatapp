@@ -453,16 +453,14 @@ h3{
 }
 
 @media screen and (max-width:400px) {
+    *{
+        margin: 0;
+    }
     .section4{
         margin: 0 auto;
         column-gap: 13px;
         row-gap: 28px;
     } 
-    .hero{
-        margin-top: 10px;
-    }
-    .section3>img{
-        margin-left:-10px;
     }
     .section3{
         margin-top: 10px;
