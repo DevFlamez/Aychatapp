@@ -356,8 +356,6 @@ h3{
     }
 }
 @media screen and (max-width:680px) {
-
-
 .hero{
     display: flex;
     flex-direction: column;
@@ -421,4 +419,14 @@ h3{
 }
 
 }
+
+@media screen and (max-width:590px) {
+    .section4{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: auto 2%;
+        gap: 20px;
+    } 
+}
+
     
