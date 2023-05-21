@@ -431,24 +431,31 @@ h3{
 
 @media screen and (max-width:400px) {
     .section4{
-        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
-        gap: 13px;
+        column-gap: 13px;
+        text-align: center;
     } 
 
     .linkthree{
         margin-right: 13px;
     }
+    .hero{
+    padding-bottom: 20px;
+    }
     .section3>img{
-        margin-left:-5px;
+        margin-left:-10px;
     }
     .section3{
-        padding-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .sectwo{
-        padding-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
