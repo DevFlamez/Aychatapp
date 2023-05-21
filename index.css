@@ -427,19 +427,12 @@ h3{
         padding: auto 2%;
         gap: 20px;
     } 
-    .link2{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
 }
 
 @media screen and (max-width:400px) {
     .section4{
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
@@ -447,23 +440,32 @@ h3{
         row-gap: 38x;
         text-align: center;
     } 
-
+    .link2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .link{
+        margin-bottom: 10px;
+    }
     .linkthree{
         margin-right: 9px;
     }
     .hero{
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .section3>img{
         margin-left:-10px;
     }
     .section3{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .sectwo{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
