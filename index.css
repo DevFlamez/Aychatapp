@@ -437,7 +437,7 @@ h3{
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
         column-gap: 13px;
-        row-gap: 18px;
+        row-gap: 29x;
         text-align: center;
     } 
 
