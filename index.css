@@ -420,7 +420,7 @@ h3{
 
 }
 
-@media screen and (max-width:590px) {
+@media screen and (max-width:570px) {
     .section4{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
