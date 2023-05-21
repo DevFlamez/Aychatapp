@@ -452,22 +452,25 @@ h3{
 
 @media screen and (max-width:400px) {
     *{
-        padding-bottom:  0;
+        padding-bottom: 0;
         padding-top: 100px;
     }
     .aside{
+        position: absolute;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: center;
     }
-    .section3{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
     .sectwo{
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: space-between;
+    row-gap: 25px;
     }
 }
 
