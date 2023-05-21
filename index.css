@@ -432,7 +432,7 @@ h3{
 @media screen and (max-width:400px) {
     .section4{
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: -10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
