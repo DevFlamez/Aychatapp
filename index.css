@@ -369,7 +369,7 @@ h3{
     padding: 9px 17px;
     border-radius: 18px;
 }
- .link2 a{
+ .link2>a{
     font-size: 10px;
     text-align: center;
     padding:11px 23px;
@@ -431,6 +431,7 @@ h3{
 
 @media screen and (max-width:400px) {
     .section4{
+        padding-top: 30px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: auto 2%;
@@ -440,8 +441,14 @@ h3{
     .linkthree{
         margin-right: 13px;
     }
-    .img4{
+    .section3>img{
         margin-left:-5px;
+    }
+    .section3{
+        padding-top: 30px;
+    }
+    .sectwo{
+        padding-top: 30px;
     }
 }
 
