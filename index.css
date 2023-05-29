@@ -463,7 +463,13 @@ h3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
+    margin-left: -10px;
     
+    }
+    .star>img4{
+        width: 60%;
+        height:auto;
+        margin-left: -10px;
     }
 }
 
